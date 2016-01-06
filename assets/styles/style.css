@@ -1,3 +1,6 @@
+html{
+    font-family: 'Roboto Condensed', sans-serif;
+}
 header{
     height: 80px;
     background-color: blue;
@@ -16,14 +19,47 @@ header{
 .main-container-sidebar{
     border: 1px solid;
     display: inline-block;
-    width: 29%;
+}
+.main-container-sidebar.left{
+    width: 12%;
+    float: left;
+}
+.main-container-sidebar.right{
+    width: 17%;
     float: right;
 }
+.article-title{
+    border-top: 20px solid lightblue;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 20px;
+}
+
 footer{
     height: 200px;
     background-color: blue;
     color: white;
     text-align: center;
     border: 5px solid black;
+    clear: both;
 }
 
+.side-article{
+    padding: 5px;
+    margin-bottom: 15px;
+}
+.side-article:hover{
+    background-color: magenta;
+    color: aqua;
+    margin: 40px 0px;
+    border: 4px dotted yellow;
+}
+.img-placeholder{
+   height: 100px;
+   width: 100px;
+   background-color: darkcyan; 
+}
+
+.side-article-title{
+    border-bottom: 1px solid black;
+}
